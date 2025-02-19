@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px), screen and (orientation: landscape){
+
+    #login{
+        width: 90vw;
+        height: 30vh;
+    }
+
+    #imagem {
+        float: left;
+        height: 100%;
+        width: 30%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+    }
+
+
+    #form{
+        float: right;
+        width: 70%;
+    }
+
+    #iemail, #isenha{
+        height: 30px;
+        width: 440px;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+
+    #login{
+        width: 90vw;
+        height: 30vh;
+    }
+
+    #imagem {
+        float: right;
+        height: 100%;
+        width: 30%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+    #form{
+        float: left;
+        width: 70%;
+    }
+
+}
+
+   
+
+
+
+    
