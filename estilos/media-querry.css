@@ -23,7 +23,7 @@
 
     #iemail, #isenha{
         height: 30px;
-        width: 440px;
+        width: 93%;    
     }
 
 }
@@ -49,6 +49,11 @@
     #form{
         float: left;
         width: 70%;
+    }
+
+    #iemail, #isenha{
+        height: 30px;
+        width: 95%;    
     }
 
 }
