@@ -26,19 +26,27 @@
                 <form action="cadastro.php" method="post" autocomplete="on">
 
                     <div class="campo">
+
                         <i class="material-icons" id="person">person</i>
-                        <input type="text" name="email" id="iemail" placeholder=" seu e-mail">
+
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+
+                        <label for="ilogin">Login</label>
+
                     </div>
 
                      <div class="campo">
-                        <i class="material-icons" id="key">vpn_key</i>
-                        <input type="text" name="senha" id="isenha" placeholder=" sua senha">
-                    </div>
 
-                    <div id="opcoes">
-                        <input type="submit" value="Entrar">
-                        <a href="#">Esqueci a senha <i class="material-icons" id="mail">mail</i></a>
+                        <i class="material-icons" id="key">vpn_key</i>
+
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+
+                        <label for="isenha">Senha</label>
+
                     </div>
+                    
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci a senha</a>
                     
                 </form>
             </div>

@@ -1,59 +1,57 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px), screen and (orientation: landscape){
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
 
     #login{
-        width: 90vw;
-        height: 30vh;
+        width: 80vw;
+        height: 280px;
     }
 
     #imagem {
         float: left;
         height: 100%;
         width: 30%;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 20px;
     }
-
 
     #form{
         float: right;
         width: 70%;
-    }
-
-    #iemail, #isenha{
-        height: 30px;
-        width: 93%;    
     }
 
 }
 
 @media screen and (min-width: 992px){
 
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
     #login{
-        width: 90vw;
-        height: 30vh;
+        width: 950px;
+        height: 300px;
     }
 
     #imagem {
         float: right;
         height: 100%;
-        width: 30%;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 20px;
+        width: 50%;
     }
-
 
     #form{
         float: left;
-        width: 70%;
+        width: 50%;
     }
 
-    #iemail, #isenha{
-        height: 30px;
-        width: 95%;    
+    h1{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1em;
     }
 
 }
